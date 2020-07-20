@@ -19,7 +19,18 @@ Faça download do repositório acima ou use o seguinte comando na pasta onde des
 Digite o seguinte comando dentro da pasta mobile através do terminal:
  - npm install
 
-## Terceiro passo - iniciar app
+## Terceiro passo - configurar para android
+Para iniciar o app em um dispositivo android, acesse a pasta mobile e execute o seguinte comando no terminal:
+ - adb reverse tcp:3000 tcp:3000
+
+ou acesse o arquivo index.js dentro src/pages/Feed e verifique a linha 22. Altere 'localhost' para o endereço de ip da sua rede. Ex
+ - http://192.168.0.32:3000/feed?_expand=author&_limit=5&_page=${pageNumber}
+
+## Quarto passo - iniciar servidor
+Dentro da pasta mobile, digite o seguinte comando no terminal: 
+ - npx json-server server.json -d 1000 -w
+
+## Quinto passo - iniciar o app
 Dentro da pasta mobile, digite o seguinte comando no terminal: 
  - expo start
 
