@@ -20,10 +20,10 @@ Digite o seguinte comando dentro da pasta mobile através do terminal:
  - npm install
 
 ## Terceiro passo - configurar para android
-Para iniciar o app em um dispositivo android, acesse a pasta mobile e execute o seguinte comando no terminal:
+Para iniciar o app em um dispositivo android acesse a pasta mobile e execute o seguinte comando no terminal:
  - adb reverse tcp:3000 tcp:3000
 
-ou acesse o arquivo index.js dentro src/pages/Feed e verifique a linha 22. Altere 'localhost' para o endereço de ip da sua rede. Ex
+ou acesse o arquivo index.js dentro src/pages/Feed e verifique a linha 22. Altere 'localhost' para o endereço de ip da sua rede. Ex:
  - http://192.168.0.32:3000/feed?_expand=author&_limit=5&_page=${pageNumber}
 
 ## Quarto passo - iniciar servidor
