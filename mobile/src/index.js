@@ -1,6 +1,6 @@
 import React from 'react'
 import { StatusBar } from 'react-native'
-//json.server observar adb reverse tcp:3000 tcp:3000
+//npx ou yarn json-server server.json, observar adb reverse tcp:3000 tcp:3000
 import Routes from './routes'
 
 export default function App() {
