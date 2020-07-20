@@ -13,7 +13,7 @@
 
 ## Primeiro passo - baixar o projeto
 Faça download do repositório acima ou use o seguinte comando na pasta onde deseja baixar o projeto:
- - git clone 
+ - git clone https://github.com/AloisioFernandes/clone-instagram.git
 
 ## Segundo passo - instalar dependências
 Digite o seguinte comando dentro da pasta mobile através do terminal:
