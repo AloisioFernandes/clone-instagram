@@ -1,5 +1,11 @@
 # Clone Instagram
- Clone da interface do instagram
+ Clone da interface do instagram utilizando FlatList.
+
+ <p align="center">
+  <img align="center" src=".github/instaclone1.png" alt="Clone Instagram 1" width="275" border="0">
+  <img align="center" src=".github/instaclone2.png" alt="Clone Instagram 2" width="275" border="0">
+</p>
+
 
 ## Requisitos
     Instalar o Git
